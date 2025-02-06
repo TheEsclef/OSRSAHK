@@ -1,0 +1,135 @@
+logout() {
+	random, logout1x, 645, 665
+	random, logout1y, 495, 520
+	random, logout2x, 600, 720
+	random, logout2y, 450, 470
+	random, logoutsleep1, 100, 200
+	random, logoutsleep2, 300, 400
+
+	Mousemove, logout1x, logout1y, 3
+	sleep logoutsleep1
+	click
+	sleep logoutsleep1
+	Mousemove, logout2x, logout2y, 3
+	sleep logoutsleep2
+	click
+	Msgbox, Script Completed, enjoy the GP!
+}
+
+
+	;;Random deposit
+	random, DepoX, 445, 465
+	random, DepoY, 330, 350
+
+	;; Inventory Item 1:  
+	random, Item1X, 580, 600  
+	random, Item1Y, 245, 265  
+
+	;; Inventory Item 2:  
+	random, Item2X, 620, 640  
+	random, Item2Y, 245, 265  
+
+	;; Inventory Item 3:  
+	random, Item3X, 665, 685  
+	random, Item3Y, 245, 265  
+
+	;; Inventory Item 4:  
+	random, Item4X, 705, 725  
+	random, Item4Y, 245, 265  
+
+	;; Inventory Item 5:  
+	random, Item5X, 580, 600  
+	random, Item5Y, 280, 300  
+
+	;; Inventory Item 6:  
+	random, Item6X, 620, 640  
+	random, Item6Y, 280, 300  
+
+	;; Inventory Item 7:  
+	random, Item7X, 665, 685  
+	random, Item7Y, 280, 300  
+
+	;; Inventory Item 8:  
+	random, Item8X, 705, 725  
+	random, Item8Y, 280, 300  
+
+	;; Inventory Item 9:  
+	random, Item9X, 580, 600  
+	random, Item9Y, 320, 335  
+
+	;; Inventory Item 10:  
+	random, Item10X, 620, 640  
+	random, Item10Y, 320, 335  
+
+	;; Inventory Item 11:  
+	random, Item11X, 665, 685  
+	random, Item11Y, 320, 335  
+
+	;; Inventory Item 12:  
+	random, Item12X, 705, 725  
+	random, Item12Y, 320, 335  
+
+	;; Inventory Item 13:  
+	random, Item13X, 580, 600  
+	random, Item13Y, 355, 375  
+
+	;; Inventory Item 14:  
+	random, Item14X, 620, 640  
+	random, Item14Y, 355, 375  
+
+	;; Inventory Item 15:  
+	random, Item15X, 665, 685  
+	random, Item15Y, 355, 375  
+
+	;; Inventory Item 16:  
+	random, Item16X, 705, 725  
+	random, Item16Y, 355, 375  
+
+	;; Inventory Item 17:  
+	random, Item17X, 580, 600  
+	random, Item17Y, 390, 410  
+
+	;; Inventory Item 18:  
+	random, Item18X, 620, 640  
+	random, Item18Y, 390, 410  
+
+	;; Inventory Item 19:  
+	random, Item19X, 665, 685  
+	random, Item19Y, 390, 410  
+
+	;; Inventory Item 20:  
+	random, Item20X, 705, 725  
+	random, Item20Y, 390, 410  
+
+	;; Inventory Item 21:  
+	random, Item21X, 580, 600  
+	random, Item21Y, 425, 440  
+
+	;; Inventory Item 22:  
+	random, Item22X, 620, 640  
+	random, Item22Y, 425, 440  
+
+	;; Inventory Item 23:  
+	random, Item23X, 665, 685  
+	random, Item23Y, 425, 440  
+
+	;; Inventory Item 24:  
+	random, Item24X, 705, 725  
+	random, Item24Y, 425, 440  
+
+	;; Inventory Item 25:  
+	random, Item25X, 580, 600  
+	random, Item25Y, 465, 480  
+
+	;; Inventory Item 26:  
+	random, Item26X, 620, 640  
+	random, Item26Y, 465, 480  
+
+	;; Inventory Item 27:  
+	random, Item27X, 665, 685  
+	random, Item27Y, 465, 480  
+
+	;; Inventory Item 28:  
+	random, Item28X, 705, 725  
+	random, Item28Y, 465, 480  
+
